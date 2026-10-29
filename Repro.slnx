@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Models/Models.csproj" />
+  <Project Path="WebApp/WebApp.csproj" />
+</Solution>

@@ -1,0 +1,8 @@
+@page "/p/{Id:int}"
+
+<p>Item @Id</p>
+
+@code {
+    /// <summary>Item id from the route.</summary>
+    [Parameter] public int Id { get; set; }
+}
